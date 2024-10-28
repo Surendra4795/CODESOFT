@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e90ff; /* Dodger blue */
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Space below the header */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    color: #1e90ff; /* Match the header color */
+    border-bottom: 2px solid #1e90ff; /* Bottom border for h2 */
+    padding-bottom: 5px; /* Space below the header */
+    margin-top: 20px; /* Space above the header */
+}
+
+.profile-image {
+    display: block;
+    margin: 20px auto;
+    width: 300px; /* Set a width for the image */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #ddd; /* Light border */
+}
+
+section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff; /* White background for content */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin-bottom: 20px; /* Space below the section */
+}
+
+ul {
+    padding-left: 20px; /* Indent for lists */
+    margin-top: 10px; /* Space above the list */
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666; /* Gray text for footer */
+    border-top: 1px solid #ddd; /* Top border for footer */
+    padding-top: 10px; /* Space above the footer text */
+}
